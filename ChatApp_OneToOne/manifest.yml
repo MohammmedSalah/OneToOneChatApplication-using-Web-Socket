@@ -1,0 +1,9 @@
+applications:
+- path: ChatApp_OneToOne.war
+  memory: 512M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: prOfessionalSkills
+  host: reatimechating
+  disk_quota: 1024M
+  buildpack: liberty-for-java
